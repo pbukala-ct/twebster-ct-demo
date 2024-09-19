@@ -1,0 +1,23 @@
+         {   
+            "key": "channel-store",
+            "name": {
+                "en": "Store details for fullfilment"
+            },
+            "resourceTypeIds": [
+                "channel"
+            ],
+            "fieldDefinitions": [
+                {
+                    "name": "isStore",
+                    "label": {
+                        "en": "Physical store"
+                    },
+                    "required": false,
+                    "type": {
+                        "name": "Boolean"
+                    },
+                    "inputHint": "SingleLine"
+                }
+            ]
+        }
+        

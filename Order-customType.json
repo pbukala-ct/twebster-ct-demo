@@ -1,0 +1,66 @@
+{
+    "key": "order-fullfilment",
+    "name": {
+        "en": "Fullfilment details"
+    },
+    "description": {
+        "en": "T&W OMS  Integration - fields related to OMS integration"
+    },
+    "resourceTypeIds": [
+        "order"
+    ],
+    "fieldDefinitions": [
+        {
+            "name": "channel",
+            "label": {
+                "en": "Fullfilment store"
+            },
+            "required": false,
+            "type": {
+                "name": "Reference",
+                "referenceTypeId": "channel"
+            },
+            "inputHint": "SingleLine"
+        },
+        {
+            "name": "omsId",
+            "label": {
+                "en": "OMS Order ID "
+            },
+            "required": false,
+            "type": {
+                "name": "String"
+            },
+            "inputHint": "SingleLine"
+        },
+        {
+            "name": "order-notes",
+            "label": {
+                "en": "Notes"
+            },
+            "required": false,
+            "type": {
+                "name": "Set",
+                "elementType": {
+                    "name": "String"
+                }
+            },
+            "inputHint": "SingleLine"
+        },
+        {
+            "name": "timestamp",
+            "label": {
+                "en": "State update",
+                "en-AU": "State update",
+                "en-NZ": "State update",
+                "en-US": "State update"
+            },
+            "required": false,
+            "type": {
+                "name": "DateTime"
+            },
+            "inputHint": "SingleLine"
+        }
+    ]
+
+}

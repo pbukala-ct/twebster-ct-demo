@@ -1,0 +1,12 @@
+{
+   "destination" : {
+     "type" : "GoogleCloudPubSub",
+     "topic" : "temple-order-update-topic",
+     "projectId" : "ct-sales-207211"
+  },
+  "messages" : [ {
+    "resourceTypeId" : "order",
+    "types" : ["OrderCreated"]
+  } ],
+  "key" : "temple-order-update"
+}
